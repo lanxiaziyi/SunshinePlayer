@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>510</width>
+    <height>468</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>510</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="File">
+    <property name="title">
+     <string>wenjian </string>
+    </property>
+    <addaction name="Open"/>
+    <addaction name="Exit"/>
+   </widget>
+   <widget class="QMenu" name="Play">
+    <property name="title">
+     <string>bianji</string>
+    </property>
+    <addaction name="actionPlay"/>
+    <addaction name="actionPause"/>
+    <addaction name="actionStop"/>
+   </widget>
+   <widget class="QMenu" name="menuHardware">
+    <property name="title">
+     <string>hardware</string>
+    </property>
+    <addaction name="actionAudio_info"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionEditor"/>
+   </widget>
+   <addaction name="File"/>
+   <addaction name="Play"/>
+   <addaction name="menuHardware"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="Open">
+   <property name="text">
+    <string>dakai</string>
+   </property>
+  </action>
+  <action name="Exit">
+   <property name="text">
+    <string>bofang</string>
+   </property>
+  </action>
+  <action name="actionPlay">
+   <property name="text">
+    <string>play</string>
+   </property>
+  </action>
+  <action name="actionPause">
+   <property name="text">
+    <string>pause</string>
+   </property>
+  </action>
+  <action name="actionStop">
+   <property name="text">
+    <string>stop</string>
+   </property>
+  </action>
+  <action name="actionAudio_info">
+   <property name="text">
+    <string>audio info</string>
+   </property>
+  </action>
+  <action name="actionEditor">
+   <property name="text">
+    <string>editor</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
